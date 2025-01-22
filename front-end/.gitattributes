@@ -1,0 +1,15 @@
+# Force LF for all text files
+* text=auto
+
+# Force CRLF for Windows-specific scripts
+*.cmd text eol=crlf
+
+# Force LF for Unix-based scripts
+*.sh text eol=lf
+
+# Java files
+*.java text eol=lf
+
+# Specific files to enforce line endings
+*.json text eol=lf
+*.properties text eol=lf
