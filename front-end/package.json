@@ -11,14 +11,7 @@
   "engines": {
     "node": "16.x"
   },
-  {
-    "builds": [
-      {
-        "src": "front-end/package.json",
-        "use": "@vercel/static-build"
-      }
-    ]
-  }
+  
 
   "keywords": [],
   "author": "",
